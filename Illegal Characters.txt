@@ -1,0 +1,11 @@
+" == &#x22;
+\t == &#9;
+\n == &#10;
+
+Replacements
+.replaceAll("\"", "'")
+.replaceAll("/>", " />")
+.replaceAll("\\\\", "&#92;")
+.replaceAll("\n", "")
+.replaceAll("\r", "")
+.replaceAll("\t", "");
